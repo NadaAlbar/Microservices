@@ -9,6 +9,9 @@ COPY package*.json ./
 RUN npm ci
 # Bundle app source
 COPY . .
+#COPY ./ /app/
+#RUN ionic init
+RUN npm install --save-dev --save-exact @ionic/cli-plugin-ionic1@latest @ionic/cli-plugin-cordova@latest
 RUN ionic build
 
 ## Run 
