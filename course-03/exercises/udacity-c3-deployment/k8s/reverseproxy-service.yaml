@@ -3,6 +3,7 @@ kind: Service
 metadata:
   labels:
     service: reverseproxy
+    version: v2
   name: reverseproxy
 spec:
   ports:

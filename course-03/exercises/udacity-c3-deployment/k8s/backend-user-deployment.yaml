@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     service: backend-user
+    version: v2
   name: backend-user
 spec:
   replicas: 2
@@ -10,6 +11,7 @@ spec:
     metadata:
       labels:
         service: backend-user
+        version: v2
     spec:
       containers:
       - image: nadaalbar/user

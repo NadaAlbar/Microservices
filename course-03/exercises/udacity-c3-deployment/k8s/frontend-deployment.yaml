@@ -13,7 +13,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: nadaalbar/frontend-c3:local
+      - image: nadaalbar/ufrontend
         name: frontend
         imagePullPolicy: Always          
         ports:

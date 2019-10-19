@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ../../udacity-c3-frontend  
-    image: nadaalbar/frontend-c3:local
+    image: nadaalbar/ufrontend
