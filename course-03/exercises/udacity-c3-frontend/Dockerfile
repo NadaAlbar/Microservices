@@ -11,7 +11,7 @@ RUN npm ci
 COPY . .
 #COPY ./ /app/
 #RUN ionic init
-RUN npm install --save-dev --save-exact @ionic/cli-plugin-ionic1@latest @ionic/cli-plugin-cordova@latest
+#RUN npm install --save-dev --save-exact @ionic/cli-plugin-ionic1@latest @ionic/cli-plugin-cordova@latest
 RUN ionic build
 
 ## Run 
